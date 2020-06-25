@@ -1,0 +1,24 @@
+#include <iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+   int n;
+   string c;
+    
+    cout << "election commision of india \n welcome you " << endl;
+    cout <<"enter your age" << endl;
+    cin >> n;
+    if(n>18){
+    cout << " you are eligible for voting \n enter constituency" << endl;
+    cin >> c;
+    cout << c;
+
+    }
+    else
+    {
+       cout << "sorry you are not eligible" << endl;
+    }
+    return 0;
+}
